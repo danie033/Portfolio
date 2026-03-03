@@ -9,8 +9,8 @@ function App() {
         <h2 className="logo">Daniel Figueroa</h2>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#studies">Education</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#studies">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -29,6 +29,20 @@ function App() {
         <p className="about_des">
           I’m a Full Stack Developer driven by a passion for AI development and research. As a Data Engineer, I specialize in designing scalable data pipelines and building systems that turn complex datasets into actionable insights. I’m deeply enthusiastic about data science and enjoy working at the intersection of backend systems, analytics, and intelligent applications. My goal is to leverage data and AI to create innovative, high-impact solutions.
         </p>
+      </section>
+
+      
+      <Projects />
+      
+      {/* Contact Section */}
+      <section id="contact" className="section">
+        <h2>Contact</h2>
+        <p>Email: danie033@hotmail.com</p>
+          <a href='https://www.linkedin.com/in/daniel-figueroa-machinelearning/'>
+          Linkedin</a> 
+
+          <a href='https://github.com/danie033?tab=repositories'>
+          GitHub</a> 
       </section>
 
       {/* Some Edication */}
@@ -51,18 +65,6 @@ function App() {
         </div>
       </section>
 
-      <Projects />
-      
-      {/* Contact Section */}
-      <section id="contact" className="section">
-        <h2>Contact</h2>
-        <p>Email: danie033@hotmail.com</p>
-          <a href='https://www.linkedin.com/in/daniel-figueroa-machinelearning/'>
-          Linkedin</a> 
-
-          <a href='https://github.com/danie033?tab=repositories'>
-          GitHub</a> 
-      </section>
 
       {/* Footer */}
       <footer className="footer">
